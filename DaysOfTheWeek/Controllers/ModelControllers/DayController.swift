@@ -8,7 +8,7 @@
 import Foundation
 
 class DayController {
-   static var daysOfTheWeek : [Day] {
+    static var daysOfTheWeek : [Day] {
         let sunday    = Day(name: "Sunday", origin: "Added to the Roman calender by Emperor Constantine.")
         let monday    = Day(name: "Monday", origin: "Added to the Roman calender by Emperor Constantine.")
         let tuesday   = Day(name: "Tuesday", origin: "Tuesday come from Tiu, or tiw. the Anglo-Saxon name for Tyr, the Norse god of war.")

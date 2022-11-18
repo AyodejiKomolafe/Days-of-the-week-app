@@ -14,7 +14,7 @@ class DayDetailViewController: UIViewController {
     @IBOutlet var dayOriginLabel: UILabel!
     
     //MARK: - Properties
-    var day : Day? 
+    var day : Day?
     
     
     //MARK: - Lifecycles
@@ -22,7 +22,7 @@ class DayDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         updateViews()
-
+        
         
     }
     
@@ -33,5 +33,5 @@ class DayDetailViewController: UIViewController {
         
     }
     
-
+    
 }
